@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from models import load_model, features
-from schema import EmpTerm
+from app.models import load_model, features
+from app.schema import EmpTerm
 import pandas as pd
 
 app = FastAPI()
