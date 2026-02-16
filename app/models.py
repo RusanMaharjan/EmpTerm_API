@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 features = ['EmpSatisfaction', 'SpecialProjectsCount', 'Absences']
 target = 'Termd'
 
-MODEL_PATH = 'D:/Broadway/Data Science - 3 to 4.30/fastapi/models/logistic_regression.pkl'
+MODEL_PATH = 'models/logistic_regression.pkl'
 
 def train_model():
     df = pd.read_csv('D:/Broadway/Data Science - 3 to 4.30/fastapi/data/HR_Dataset Refresh.csv')
