@@ -25,7 +25,7 @@ def train_model():
     model.predict(X_test)
 
     joblib.dump(model, MODEL_PATH)
-    return model, features, target
+    return model
 
 def load_model():
     return joblib.load(MODEL_PATH)
